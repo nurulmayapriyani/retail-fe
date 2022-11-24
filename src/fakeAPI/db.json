@@ -1,0 +1,133 @@
+{
+  "targets": [
+    {
+      "id": 1,
+      "target_year": 2019,
+      "target": 100000000,
+      "total_store_of_group": 3
+    },
+    {
+      "id": 2,
+      "target_year": 2020,
+      "target": 150000000,
+      "total_store_of_group": 4
+    },
+    {
+      "id": 3,
+      "target_year": 2021,
+      "target": 200000000,
+      "total_store_of_group": 5
+    },
+    {
+      "id": 4,
+      "target_year": 2022,
+      "target": 250000000,
+      "total_store_of_group": 8
+    }
+  ],
+  "purchase_orders": [
+    {
+      "id": 1,
+      "po_no": 450110937,
+      "po_created": "2022-05-31",
+      "po_sent": "2022-06-01",
+      "po_qty": 12,
+      "po_total_price": 1326000,
+      "po_discount": 132600,
+      "po_total_exclude_vat": 1193400,
+      "po_vat": 131274,
+      "po_total_include_vat": 1324674
+    },
+    {
+      "id": 2,
+      "po_no": 450110950,
+      "po_created": "2022-06-07",
+      "po_sent": "2022-06-08",
+      "po_qty": 24,
+      "po_total_price": 2164800,
+      "po_discount": 216480,
+      "po_total_exclude_vat": 1948320,
+      "po_vat": 214315,
+      "po_total_include_vat": 2162635
+    }
+  ],
+  "promotions": [
+    {
+        "id": 1,
+        "promo_type": "instore",
+        "promo_mechanism": "diskon 10% all items",
+        "promo_start": "2022-09-20",
+        "promo_end": "2022-09-30"
+    }
+],
+"returns": [
+    {
+        "id": 1,
+        "return_qty": 3,
+        "return_exclude_vat": 67800,
+        "return_cause": "hama tikus",
+        "return_ending": "dibuang"
+    }
+],
+"retail_stores": [
+    {
+        "id": 1,
+        "store_name": "grand lucky cinere",
+        "store_is_active": true
+    },
+    {
+        "id": 2,
+        "store_name": "grand lucky paragon",
+        "store_is_active": true
+    },
+    {
+        "id": 3,
+        "store_name": "grand lucky ancol",
+        "store_is_active": false
+    },
+    {
+        "id": 4,
+        "store_name": "grand lucky scbd",
+        "store_is_active": true
+    },
+    {
+        "id": 5,
+        "strore_name": "grand lucky moi",
+        "store_is_active": true
+    },
+    {
+        "id": 6,
+        "store_name": "grand lucky sanur",
+        "store_is_active": true
+    },
+    {
+        "id": 7,
+        "store_name": "grand lucky sunset",
+        "store_is_active": true
+    },
+    {
+        "id": 8,
+        "store_name": "grand lucky pik",
+        "store_is_active": true
+    }
+],
+"retail_group": [
+{
+    "id": 1,
+    "group_name": "grand lucky",
+    "group_is_returnable": false
+}
+],
+"products": [
+    {
+        "id": 1,
+        "product_name": "Chia Seed Organik",
+        "product_size": "1kg",
+        "product_is_active": true,
+        "product_volume_in_carton": 24,
+        "product_barcode": 82345689201,
+        "product_buy_price": 85000,
+        "product_sell_proce": 110500
+    }
+]
+}

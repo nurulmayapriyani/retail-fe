@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  #root {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    list-style-type: none;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    width: 84.5vw;
+    max-width: 84.5vw;
+    height: 50px;
+    margin-left: 15.5vw;
+    background-color: #d7b19d;
+    align-items: center;
+    display: flex;
+  }
+
+  .logo {
+    height: 35px;
+    max-height: 35px;
+    width: auto;
+  }
+
+  a {
+    font-weight: bold;
+    color: #402218;
+    text-decoration: none;
+    padding-left: 70%; /*justify-content: flex-end; didn't work*/
+    position: fixed;
+  }
+
+  /*a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #c68b59;
+  }*/
